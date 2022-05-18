@@ -1,3 +1,4 @@
+// Algorithm based off https://www.geeksforgeeks.org/design-a-stack-that-supports-getmin-in-o1-time-and-o1-extra-space/amp/
 public class CoolStack
 {
     private Stack<int> _stack;
