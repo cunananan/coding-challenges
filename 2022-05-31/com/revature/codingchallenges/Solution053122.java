@@ -18,16 +18,19 @@ public class Solution053122 {
         int[] a5 = { 1, 2, 3, 4 };
 
         System.out.println(
-                "ReorderDigits(" + IntArrayToString(a0) + "\"asc\") -> " + IntArrayToString(ReorderDigits(a0, "asc")));
-        System.out.println("ReorderDigits(" + IntArrayToString(a1) + "\"desc\") -> "
+                "ReorderDigits(" + IntArrayToString(a0) + ", \"asc\") -> "
+                        + IntArrayToString(ReorderDigits(a0, "asc")));
+        System.out.println("ReorderDigits(" + IntArrayToString(a1) + ", \"desc\") -> "
                 + IntArrayToString(ReorderDigits(a1, "desc")));
         System.out.println(
-                "ReorderDigits(" + IntArrayToString(a2) + "\"asc\") -> " + IntArrayToString(ReorderDigits(a2, "asc")));
-        System.out.println("ReorderDigits(" + IntArrayToString(a3) + "\"desc\") -> "
+                "ReorderDigits(" + IntArrayToString(a2) + ", \"asc\") -> "
+                        + IntArrayToString(ReorderDigits(a2, "asc")));
+        System.out.println("ReorderDigits(" + IntArrayToString(a3) + ", \"desc\") -> "
                 + IntArrayToString(ReorderDigits(a3, "desc")));
         System.out.println(
-                "ReorderDigits(" + IntArrayToString(a4) + "\"asc\") -> " + IntArrayToString(ReorderDigits(a4, "asc")));
-        System.out.println("ReorderDigits(" + IntArrayToString(a5) + "\"desc\") -> "
+                "ReorderDigits(" + IntArrayToString(a4) + ", \"asc\") -> "
+                        + IntArrayToString(ReorderDigits(a4, "asc")));
+        System.out.println("ReorderDigits(" + IntArrayToString(a5) + ", \"desc\") -> "
                 + IntArrayToString(ReorderDigits(a5, "desc")));
 
         System.out.println("\nJava - Part b:\n");
